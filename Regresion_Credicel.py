@@ -87,83 +87,120 @@ def correlacion_determinacion(variableX, variableY, df):
     plt.ylabel('variableY')
     plt.show()
 
-    
+#Gráficos
+# sns.pairplot(semana_13)
+# sns.pairplot(semana_26)
+# sns.pairplot(semana_39)
+# sns.pairplot(semana_52)
+
 # Semana 13
 
-# Precio vs Enganche
-precio_enganche_13 = correlacion_determinacion(semana_13["enganche"], semana_13["precio"], cred)
+# # Precio vs Enganche
+# precio_enganche_13 = correlacion_determinacion(semana_13["enganche"], semana_13["precio"], cred)
 
-# Precio vs Monto Financiado
-precio_montofinanciado_13 = correlacion_determinacion(semana_13["monto_financiado"], semana_13["precio"], cred)
+# # Precio vs Monto Financiado
+# precio_montofinanciado_13 = correlacion_determinacion(semana_13["monto_financiado"], semana_13["precio"], cred)
 
-# Precio vs Costo Total
-precio_costototal_13 = correlacion_determinacion(semana_13["costo_total"], semana_13["precio"], cred)
+# # Precio vs Costo Total
+# precio_costototal_13 = correlacion_determinacion(semana_13["costo_total"], semana_13["precio"], cred)
 
-# Costo total vs Monto Financiado
-costototal_montofinanciado_13 = correlacion_determinacion(semana_13["monto_financiado"], semana_13["costo_total"], cred)
+# # Costo total vs Monto Financiado
+# costototal_montofinanciado_13 = correlacion_determinacion(semana_13["monto_financiado"], semana_13["costo_total"], cred)
 
-# Precio vs semana
-precio_semana_13 = correlacion_determinacion(semana_13["semana"], semana_13["precio"], cred)
+# # Precio vs semana
+# precio_semana_13 = correlacion_determinacion(semana_13["semana"], semana_13["precio"], cred)
 
-# Precio vs Pagos Realizados
-precio_pagosrealizados_13 = correlacion_determinacion(semana_13["pagos_realizados"], semana_13["precio"], cred)
+# # Precio vs Pagos Realizados
+# precio_pagosrealizados_13 = correlacion_determinacion(semana_13["pagos_realizados"], semana_13["precio"], cred)
 
-# Semana 26
+# # Semana 26
 
-# Precio vs Enganche
-precio_enganche_26 = correlacion_determinacion(semana_26["enganche"], semana_26["precio"], cred)
+# # Precio vs Enganche
+# precio_enganche_26 = correlacion_determinacion(semana_26["enganche"], semana_26["precio"], cred)
 
-# Precio vs Monto Financiado
-precio_montofinanciado_26 = correlacion_determinacion(semana_26["monto_financiado"], semana_26["precio"], cred)
+# # Precio vs Monto Financiado
+# precio_montofinanciado_26 = correlacion_determinacion(semana_26["monto_financiado"], semana_26["precio"], cred)
 
-# Precio vs Costo Total
-precio_costototal_26 = correlacion_determinacion(semana_26["costo_total"], semana_26["precio"], cred)
+# # Precio vs Costo Total
+# precio_costototal_26 = correlacion_determinacion(semana_26["costo_total"], semana_26["precio"], cred)
 
-# Costo total vs Monto Financiado
-costototal_montofinanciado_26 = correlacion_determinacion(semana_26["monto_financiado"], semana_26["costo_total"], cred)
+# # Costo total vs Monto Financiado
+# costototal_montofinanciado_26 = correlacion_determinacion(semana_26["monto_financiado"], semana_26["costo_total"], cred)
 
-# Precio vs semana
-precio_semana_26 = correlacion_determinacion(semana_26["semana"], semana_26["precio"], cred)
+# # Precio vs semana
+# precio_semana_26 = correlacion_determinacion(semana_26["semana"], semana_26["precio"], cred)
 
-# Precio vs Pagos Realizados
-precio_pagosrealizados_26 = correlacion_determinacion(semana_26["pagos_realizados"], semana_26["precio"], cred)
+# # Precio vs Pagos Realizados
+# precio_pagosrealizados_26 = correlacion_determinacion(semana_26["pagos_realizados"], semana_26["precio"], cred)
 
-# Semana 39
+# # Semana 39
 
-# Precio vs Enganche
-precio_enganche_39 = correlacion_determinacion(semana_39["enganche"], semana_39["precio"], cred)
+# # Precio vs Enganche
+# precio_enganche_39 = correlacion_determinacion(semana_39["enganche"], semana_39["precio"], cred)
 
-# Precio vs Monto Financiado
-precio_montofinanciado_39 = correlacion_determinacion(semana_39["monto_financiado"], semana_39["precio"], cred)
+# # Precio vs Monto Financiado
+# precio_montofinanciado_39 = correlacion_determinacion(semana_39["monto_financiado"], semana_39["precio"], cred)
 
-# Precio vs Costo Total
-precio_costototal_39 = correlacion_determinacion(semana_39["costo_total"], semana_39["precio"], cred)
+# # Precio vs Costo Total
+# precio_costototal_39 = correlacion_determinacion(semana_39["costo_total"], semana_39["precio"], cred)
 
-# Costo total vs Monto Financiado
-costototal_montofinanciado_39 = correlacion_determinacion(semana_39["monto_financiado"], semana_39["costo_total"], cred)
+# # Costo total vs Monto Financiado
+# costototal_montofinanciado_39 = correlacion_determinacion(semana_39["monto_financiado"], semana_39["costo_total"], cred)
 
-# Precio vs semana
-precio_semana_39 = correlacion_determinacion(semana_39["semana"], semana_39["precio"], cred)
+# # Precio vs semana
+# precio_semana_39 = correlacion_determinacion(semana_39["semana"], semana_39["precio"], cred)
 
-# Precio vs Pagos Realizados
-precio_pagosrealizados_39 = correlacion_determinacion(semana_39["pagos_realizados"], semana_39["precio"], cred)
+# # Precio vs Pagos Realizados
+# precio_pagosrealizados_39 = correlacion_determinacion(semana_39["pagos_realizados"], semana_39["precio"], cred)
 
-# Semana 52
+# # Semana 52
 
-# Precio vs Enganche
-precio_enganche_52 = correlacion_determinacion(semana_52["enganche"], semana_52["precio"], cred)
+# # Precio vs Enganche
+# precio_enganche_52 = correlacion_determinacion(semana_52["enganche"], semana_52["precio"], cred)
 
-# Precio vs Monto Financiado
-precio_montofinanciado_52 = correlacion_determinacion(semana_52["monto_financiado"], semana_52["precio"], cred)
+# # Precio vs Monto Financiado
+# precio_montofinanciado_52 = correlacion_determinacion(semana_52["monto_financiado"], semana_52["precio"], cred)
 
-# Precio vs Costo Total
-precio_costototal_52 = correlacion_determinacion(semana_52["costo_total"], semana_52["precio"], cred)
+# # Precio vs Costo Total
+# precio_costototal_52 = correlacion_determinacion(semana_52["costo_total"], semana_52["precio"], cred)
 
-# Costo total vs Monto Financiado
-costototal_montofinanciado_52 = correlacion_determinacion(semana_52["monto_financiado"], semana_52["costo_total"], cred)
+# # Costo total vs Monto Financiado
+# costototal_montofinanciado_52 = correlacion_determinacion(semana_52["monto_financiado"], semana_52["costo_total"], cred)
 
-# Precio vs semana
-precio_semana_52 = correlacion_determinacion(semana_52["semana"], semana_52["precio"], cred)
+# # Precio vs semana
+# precio_semana_52 = correlacion_determinacion(semana_52["semana"], semana_52["precio"], cred)
 
-# Precio vs Pagos Realizados
-precio_pagosrealizados_52 = correlacion_determinacion(semana_52["pagos_realizados"], semana_52["precio"], cred)
+# # Precio vs Pagos Realizados
+# precio_pagosrealizados_52 = correlacion_determinacion(semana_52["pagos_realizados"], semana_52["precio"], cred)
+
+#Modelos
+   #Semana 13
+   #Costo Total y Monto Financiado
+X_monto_financiado_13_2D = x_monto_financiado_13.values.reshape(-1, 1)
+model = LinearRegression()
+model.fit(X=X_monto_financiado_13_2D, y=y_costo_total_13)
+# print(model.__dict__)
+
+# #Semana 26
+#    #Costo Total y Monto Financiado
+X_monto_financiado_26_2D = x_monto_financiado_26.values.reshape(-1, 1)
+model = LinearRegression()
+type(model)
+model.fit(X = X_monto_financiado_26_2D, y = y_costo_total_26)
+# print(model.__dict__)
+
+# #Semana 39
+#    #Precio y Monto Financiado
+X_monto_financiado_39_2D = x_monto_financiado_39.values.reshape(-1, 1)
+model = LinearRegression()
+type(model)
+model.fit(X = X_monto_financiado_39_2D, y = y_precio_39)
+# print(model.__dict__)
+
+# #Semana 52
+#    #Precio y Monto Financiado
+X_monto_financiado_52_2D = x_monto_financiado_52.values.reshape(-1, 1)
+model = LinearRegression()
+type(model)
+model.fit(X = X_monto_financiado_52_2D, y = y_precio_52)
+print(model.__dict__)
